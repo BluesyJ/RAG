@@ -1,0 +1,5 @@
+1.修改并运行download_model.py
+2.运行MinerU下use_mineru.py生成对应文档的markdown文件(excel将转化为txt文件)
+3.运行replace_markdown.py以替换markdown文件中的图片链接
+4.可选：运行create_knowledge_graph.py生成文档概述(目前只支持有标题的pdf文档)，然后使用two_step_ask_deepseek.py进行二阶段问答
+5.修改ask_deepseek.py进行对应文档问答
